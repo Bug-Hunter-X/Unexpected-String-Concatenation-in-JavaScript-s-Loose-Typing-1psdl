@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle error in JavaScript stemming from its loose typing system. The `add` function intends to perform numerical addition; however, when passed a number and a string, it concatenates them instead of producing the expected numerical sum.  The solution highlights type checking to prevent this error.
